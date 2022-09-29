@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/navbar.css">
+    <link rel="stylesheet" href="./Style/searchbar.css">
+    <link rel="stylesheet" href="./Style/middle.css">
+    <link rel="stylesheet" href="./Style/footer.css">
+</head>
+<body>
+    <div id="ba">
+        <!-- <img src="https://cdn.modesens.com/static/img/20190228newlogo-black.svg" alt="">  -->
+        <h3>Check ModeSens before you buy <a href="https://modesens.com/">join now</a></h3>
+    </div>
+    
+    <div id="fixed_nav">
+    
+        <div id="middle_head">
+            <div id="logo">
+                <a href="https://modesens.com/"><img src="https://mma.prnewswire.com/media/818822/ModeSens_Logo.jpg?p=facebook" alt=""></a>
+            </div>
+    
+            <div id="header_search">
+                
+                <input id="header_search_input" type="text"name ="q" onfocus="if(this.value =='Enter Your Search...') this.value ='';" onblur ="if(this.value =='')this.value='Enter Your Search...';"
+                value ="Enter Your Search..." class="input-text input-searchbox" maxlength="128" role="combobox" aria-haspopup="false" aria-expanded="true"
+                aria-autocomplete="both" autocomplete="0ff">
+                <i class='fa-solid fa-magnifying-glass' id="searchicon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAEOYAC7tc-hlCIvODyfP-XEY3wG-aNUsOYQ&usqp=CAU" alt=""></i>
+             
+             
+    
+            </div>
+    
+            <div id="box_account_cart">
+                <div id="account">
+                    
+                    <p id="user_account"><select name="current_user" id="current_user">
+                    <option class="dash_options" value="">👤Account </option>
+                     <ul>
+                        <li><a href="./login.html">Login</a></li>
+                        <li><a href="./ragistration.html">Register </a></li>
+                      
+                       
+                    </ul>
+                    <option class="dash_options" value="Login">
+                        <a href="./login.html">Login</a></option>
+                    <option class="dash_options" value="Register">
+                        <a href="./ragistration.html">Register</a></option>
+                        
+                  </select></p>
+                </div>
+    
+                <div id="cart">
+                   
+                    <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIy-bZJfN2-BTPNJCG8yLyazqkabjuSFL2A&usqp=CAU" alt=""></a>
+                </div>
+            </div>
+        </div>
+    
+        <hr id="header_line">
+    
+    
+        <div id="header_navigation">
+            <ul>
+                <li><a href="">WOMEN</a>
+                    <div>
+                        <ul>
+                            <h2>SHOP All</h2>
+                        </ul>
+                        <ul>
+                            <h2>CLOTHING</h2>
+                        </ul>
+                        <ul>
+                            <h2>BAGS</h2>
+                        </ul>
+                        <ul>
+                            <h2>SHOE'S</h2>
+                        </ul>
+                        <ul>
+                            <h2>BUETY</h2>
+                        </ul>
+                    </div>
+                </li>
+    
+    
+                <li><a href="">MEN'S</a>
+                    <div>
+                        <ul>
+                            <h2>SHOP ALL</h2>
+                        </ul>
+                        <ul>
+                            <h2>OCCATION</h2>
+                        </ul>
+                        <ul>
+                            <h2>CLOTHING</h2>
+                        </ul>
+                        <ul>
+                            <h2>BAG'S</h2>
+                        </ul>
+                        <ul>
+                            <li><a href=""><img
+                                        src="https://cdn.modesens.com/banner/20220916Category-men-modesens.jpg"
+                                        alt=""></a>
+                        </ul>
+                       
+                    </div>
+                </li>
+    
+    
+    
+                <li><a href="">BEAUTY</a>
+                    <div>
+                        <ul>
+                            <h2>SHOP ALL </h2>                        
+                        </ul>
+                        <ul>
+                            <h2>WOMEN'S BEAUTY </h2>                        
+                        </ul>
+                        <ul>
+                            <h2>MEN'S BEAUTY </h2>                        
+                        </ul>
+                       
+                    </div>
+                </li>
+    
+                <li><a href="">KID</a>
+                    <div id="bath">
+                        <ul>
+                            <h2>SHOP ALL</h2>
+                        </ul>
+                        <ul>
+                            <h2>GIRL'S BEAUTY</h2>
+                        </ul>
+                        <ul>
+                            <h2>BOY'S BEAUTY</h2>
+                        </ul>
+                        <!-- <ul>
+                            <h2>SALE BEAUTY</h2>
+                        </ul> -->
+                        <ul>
+                            <li><img src="https://assets.change.org/photos/0/fa/cf/rVFACfEnifSsmQQ-800x450-noPad.jpg?1556582710"
+                                    alt=""></li>
+                        </ul>
+                        
+                    </div>
+                </li>
+                <li><a href="">HOME</a>
+                    <div id="baby">
+                        <ul>
+                            <h2>SHOP BY CATEGEORY</h2>
+                            <li><a href="">Bath Time</a>
+                            <li><a href="">Diapers</a>
+                            <li><a href="">Lotions & Cream</a>
+                            <li><a href="">Oils</a>
+                            <li><a href="">Powder</a>
+                            <li><a href="">Shampoo</a>
+                            <li><a href="">Soaps</a>
+                            <li><a href="">Sterilizer & Cleaners</a>
+                            <li><a href="">Rash Cream</a>
+                            <li><a href="">Wipes</a>
+                            
+                        </ul>
+                        <ul>
+                            <h2>TECHNOLOGY</h2>
+                            <li><a href="">Sale</a>
+                            <li><a href="">Electronic's</a>
+                            
+                        </ul>
+                        <ul>
+                            <h2>DESIGN'S</h2>
+                            <li><a href="">Gucci</a>
+                            <li><a href="">HAY</a>
+                                <li><a href="">Vitra</a>    
+                            <li><a href="">Off-White</a> 
+                        </ul>
+                       
+                       
+                        
+                    </div>
+                </li>
+                <li><a href="">DESIGN'S</a>
+                    <div>
+                        <ul>
+                            <li><a href="">Gucci</a>
+                                <li><a href="">HAY</a>
+                                    <li><a href="">Vitra</a>    
+                                <li><a href="">Off-White</a> 
+                            
+                        </ul>
+                        <ul>
+                            <li><a href="">Gucci</a>
+                                <li><a href="">Sale</a>
+                                    <li><a href="">Electronic's</a>
+                            
+                        </ul>
+                        
+                     
+                    </div>
+                </li>
+                <li><a href="">COMUNITY</a>
+                    <div>
+                        <ul>
+                            <h2>SHOP All</h2>
+                        </ul>
+                        <ul>
+                            <h2>CLOTHING</h2>
+                        </ul>
+                        <ul>
+                            <h2>BAGS</h2>
+                        </ul>
+                        <ul>
+                            <h2>SHOE'S</h2>
+                        </ul>
+                        <ul>
+                            <h2>BUETY</h2>
+                        </ul>
+                        
+                    </div>
+                </li>
+                <li><a href="">SALE</a>
+                    <div>
+                        <ul>
+                            
+                            <h3>TOP BRANDS</h3>
+                            <li><a href="">LAKME</a>
+                            <li><a href="">L-OREAL-PARIS </a>
+                            <li><a href="">JOY</a>
+                            <li><a href="">AROMA MAGIC</a>
+                            <li><a href="">LOTUS HERBALS </a>
+                            <li><a href="">BIOTIQUE</a>
+                            <li><a href="">VLCC</a>
+                            <li><a href="">VEGA </a>
+                            <li><a href="">MAYBELLINE</a>
+                            <li><a href="">MAMAEARTH</a>
+                            <li><a href="">CHICCO</a>
+                            <li><a href="">NEUTROGENA</a>
+                            
+                        </ul>
+                        <ul>
+                            
+                            <h3> BRAND'S</h3>
+                            <li><a href="">LAKME</a>
+                            <li><a href="">L-OREAL-PARIS </a>
+                            <li><a href="">JOY</a>
+                            <li><a href="">AROMA MAGIC</a>
+                            <li><a href="">LOTUS HERBALS </a>
+                            <li><a href="">BIOTIQUE</a>
+                            <li><a href="">VLCC</a>
+                            <li><a href="">VEGA </a>
+                            <li><a href="">MAYBELLINE</a>
+                            <li><a href="">MAMAEARTH</a>
+                            <li><a href="">CHICCO</a>
+                            <li><a href="">NEUTROGENA</a>
+                            
+                        </ul>
+                        
+                     
+                    </div>
+                </li>
+                <li><a href="">MY CART</a>
+                   
+                </li>
+                
+                    
+                          
+        </div>
+    </div>
+    <!-- navABAREND -->
+    <!-- frist img -->
+    <div class="cont1">
+        <a href="https://modesens.com/"><img src="https://cdn.modesens.com/static/img/20220915_bg1.png"/></a>
+    </div>
+
+    <!-- Compare Start -->
+
+    <div id="compare">
+        <div>
+         <h1>Compare 500+ Stores In One Place</h1>
+         <p> ModeSens allows you to compare prices and availability across hundreds</p>
+         <p> of stores and thousands of brands.</p>
+         <a href="https://modesens.com/">Try it Out.</a>
+        </div>
+        <div>
+            <img src="https://images.squarespace-cdn.com/content/v1/5a511950aeb6254d76833541/1572537595618-Z235KKYSF8OQ70BCBLYO/laptop-Iphone-mockup-official-gear.gif"/>
+          
+        </div>
+    </div>
+
+    <!-- COmpare End -->
+
+<!-- heading div Start -->
+    <div class="head1">
+    <h1>500+ PREMIUM PARTNERS</h1>
+    <p>We only partner with the most reputable stores and brands to offer you the largest selections</p>
+    <p>and most trustworthy shopping experience online.</p>
+    </div>
+
+<!-- heading div END  -->
+<!-- 500gitd start -->
+
+<!-- gird cont start -->
+<div id="gird500">
+    <div>
+        <a href="https://modesens.com/shop-women/?orderby=pick"><img src="https://cdn.modesens.com/banner/20220708-SSENSE-logo.png" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/men-fashion/"><img src="https://cdn.modesens.com/banner/20220708-NET-A-PORTER-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220708-FARFETCH-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220708-NORDSTROM-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220708-MATCHESFASHION-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220708-SAKS-FIFTH-AVENUE-logo.png" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/shop-women/?orderby=pick"><img src="https://cdn.modesens.com/banner/20220708-MYTHERESA-logo.png" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/men-fashion/"><img src="https://cdn.modesens.com/banner/20220708-SHOPBOP-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220708-ITALIST-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220708-CETTIRE-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220708-LUISAVIAROMA-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220708-BROWNSFASHION-logo.png" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/shop-women/?orderby=pick"><img src="https://cdn.modesens.com/banner/20211014-GUCCI-logo.png" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/men-fashion/"><img src="https://cdn.modesens.com/banner/20211014-PRADA-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20211014-SAINT-LAURENT-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20211014-BOTTEGA-VENETA-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20211014-BURBERRY-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20211014-FENDI-logo.png" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/shop-women/?orderby=pick"><img src="https://cdn.modesens.com/banner/20211014-VERSACE-logo.png" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/men-fashion/"><img src="https://cdn.modesens.com/banner/20211014-BALENCIAGA-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20211014-GIVENCHY-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20211014-OFF-WHITE-logo.png" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20211014-LOEWE-logo.png" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20211014-VALENTINO-logo.png" alt=""></a>
+    </div>
+</div>
+<!-- gird cont end -->
+<!-- 500 gird end -->
+
+
+  <!-- Locate Start -->
+
+  <div id="Locate">
+    <div>
+     <h1>Locate Any ProductIn One Second</h1>
+     <p> Simply copy any product url and search it on ModeSens. Our patented technology</p>
+     <p>helps you easily locate it on ModeSens and compare across 500+ partner stores..</p>
+     <a href="https://modesens.com/">Try it Out.</a>
+    </div>
+    <div>
+        <img src="https://media3.giphy.com/media/3o7TKySrfpMmuj2XWE/giphy.gif"/>
+      
+    </div>
+</div>
+
+<!-- Locate End -->
+
+<!-- heading div Start -->
+<div class="head2">
+    <h1>COMPARE AND SHOP WHEREVER YOU GO</h1>
+    <p>To unlock all of ModeSens' features and functionality, simply download our App and Browser</p>
+    <p>Extension.</p>
+    </div>
+
+<!-- heading div END  -->
+
+ <!-- Install Start -->
+
+ <div id="Install">
+    <div>
+     <h1>Install the ModeSens Browser Extension</h1>
+     <p> Automatically compare products across 500+</p>
+     <p>stores while you browse at any of our partner</p>
+     <p>stores’ websites.</p>
+     <a href="https://modesens.com/">Install Now.</a>
+    </div>
+    <div>
+        <img src="https://cdn.modesens.com/static/img/20220921_install_img.png"/>
+      
+    </div>
+</div>
+
+<!-- Install End -->
+
+<!-- Install2 Start -->
+
+<div id="Install2">
+    <div>
+        <img src="https://cdn.modesens.com/static/img/20220926_download_img.png"/>
+      
+    </div>
+    <div>
+     <h1>Download The ModeSens App</h1>
+     <p> Scan any bar code or tag on a product to compare</p>
+     <p>compare across 500+ stores before you buy.</p>
+     <p>stores’ websites.</p>
+     
+    </div>
+    
+</div>
+
+<!-- Install2 End -->
+
+<!-- img start -->
+<div class="IMGcont">
+  <a href="https://modesens.com/">  <img src="https://cdn.modesens.com/static/img/20220915-bg2.png"/></a>
+</div>
+<!-- img end -->
+<h1>
+    SHOP YOUR FAVORITE CATEGORY
+</h1>
+<!-- gird cont start -->
+<div id="girdcont">
+    <div>
+        <a href="https://modesens.com/shop-women/?orderby=pick"><img src="https://cdn.modesens.com/banner/20220916Category-women-modesens.jpg" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/men-fashion/"><img src="https://cdn.modesens.com/banner/20220916Category-men-modesens.jpg" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220916Category-kids-modesens.jpg" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220916Category-beauty-modesens.jpg" alt=""></a>
+    </div>
+    <div>
+       <a href=""> <img src="https://cdn.modesens.com/banner/20220916Category-kids-modesens.jpg" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://images.trvl-media.com/hotels/13000000/12630000/12620600/12620599/a9ca5646.jpg?impolicy=resizecrop&rw=455&ra=fit" alt=""></a>
+    </div>
+</div>
+<!-- gird cont end -->
+
+<!-- gird sell start -->
+<div id="girdsell">
+    <div>
+        <a href="https://modesens.com/shop-women/?orderby=pick"><img src="https://cdn.modesens.com/banner/20220919-W-Sale.jpg" alt=""></a>
+        
+    </div>
+    <div>
+        <a href="https://modesens.com/men-fashion/"><img src="https://cdn.modesens.com/banner/20220919-W-New.jpg" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220919-W-Jackets.jpg" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220919-W-Dresses.jpg" alt=""></a>
+    </div>
+    <div>
+       <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220919-W-Tops.jpg" alt=""></a>
+    </div>
+    <div>
+     <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220919-W-Pants.jpg" alt=""></a>
+    </div>
+    <div>
+        <a href="https://modesens.com/men-fashion/"> <img src="https://cdn.modesens.com/banner/20220919-W-Shoes.jpg" alt=""></a>
+     </div>
+     <div>
+      <a href="https://modesens.com/men-fashion/">   <img src="https://cdn.modesens.com/banner/20220919-W-Accessories.jpg" alt=""></a>
+     </div>
+</div>
+<!-- gird sell end -->
+
+<div id="Install3">
+    <div>
+        <img src="https://cdn.modesens.com/static/img/20220922_fashion_pic.png"/>
+      
+    </div>
+    <div>
+     <h1>Fashion-Forward Community</h1>
+     <p> You look amazing on us! Come on, join the ModeSens Fashion Community.</p>
+     <a href="https://modesens.com/">JOIN ModeSens COMMUNUTY</a>
+     <br>
+     <a href="https://modesens.com/">FASION BLOG'S</a>
+    </div>
+    
+</div>
+
+<!-- Install3 End -->
+
+<!-- img start -->
+<div class="IMGcont2">
+   <a href="https://modesens.com/"> <img src="https://cdn.modesens.com/static/img/20220915-bg3.png"/></a>
+</div>
+<!-- img end -->
+<P>Join Today to Unleash the Full Power of ModeSens</P>
+
+<a href="https://modesens.com/"><button>JOIN NOW FOR FREE</button></a>
+
+
+<!-- Footer Start -->
+<div class="cont5">
+    <div>
+        <a href="#"><h3>CUSTOMER CARE</h3></a>
+        <p>----------</p>
+        <a href="#"><p> Shopper Protection</p></a>
+        <a href="#"><p>Loyalty Program</p></a>
+        <a href="#"><p>Help Center</p></a>
+        <a href="#"><p> Size Guide's</p></a>
+        <a href="#"><p>Contact Us / Feedback</p></a>
+        <a href="#"><p>Shipping / Return</p></a>
+    </div>
+    <div>
+        <a href="#"><h3>INFORMATION</h3></a>
+        <p>----------</p>
+        <a href="#"><p>About Us</p></a>
+        <a href="#"><p>Influencer Program</p></a>
+        <a href="#"><p>Partner Store's</p></a>
+        <a href="#"><p>Sitemap</p></a>
+        
+    </div>
+    <div>
+        <a href="#"><h3>LEGAL </h3></a>
+        <p>----------</p>
+        <a href="#"><p>Term's Of Use</p></a>
+        <a href="#"><p>Disclouser</p></a>
+        <a href="#"><p>Privacy Policy </p></a>
+        <a href="#"><p>Community Guideline's</p></a>
+       
+    </div>
+    <div>
+        <a href="#"><h3> CONNECT WITH US</h3></a>
+        <p>----------</p>
+        <a href="https://www.apple.com/in/?afid=p238%7Csm7iniZT5-dc_mtid_187079nc38483_pcrid_624179625595_pgrid_109516736099_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMaOB3LQiivbdZtcb5AYpyO_VQfPX3nF3J6GILEvu0zXE6itd0AJ7EAB2LxHArBd447A&usqp=CAU"/></a>
+        
+    </div>
+    <div>
+      <a href="#"><h3> NEWSLETTER SIGN UP</h3></a>
+      <p>----------</p>
+      <input class="inputf" type="email" placeholder="Please Enter Your Email" />
+      <br>
+      <form  action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Male</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Female</label><br>
+        <input class="inputf" type="submit" value="Submit">
+      </form>
+     
+  </div>
+    
+
+</div>
+<p class="paragraph">When you follow our links to visit a brand or retailer’s website or make a purchase, ModeSens may earn a commission.</p>
+<div class="cont6">
+    <div> <img src="https://play-lh.googleusercontent.com/yDvKS_44RPH8PKRUwpk9MKrkRqco4wGbIrbii0kybcmt6oW1t3t8S2gixKUPU3hOOHE"/></div>
+    <div class="takemar"> <img src="https://www.logolynx.com/images/logolynx/29/293a57115d4f92bc2a6e45fe12e8b3cb.jpeg"/></div>
+</div>
+<div class="cont7">
+    <p>© 2020 All Rights Reserved.</p>
+</div>
+
+<!-- footer end -->
+</body>
+</html>
