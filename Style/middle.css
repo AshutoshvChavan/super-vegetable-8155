@@ -1,0 +1,373 @@
+.cont1 > a > img{
+    width: 80%;
+    height: 510px;
+    margin-left: 10%;
+    /* border: 1px solid; */
+}
+
+/* Compare CSS StRT */
+#compare{
+    /* margin-top: 20px;      */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,420px);
+    margin: auto;
+    gap: 20px;
+    width: 80%;
+    height: 420px;
+    /* border: 1px solid black; */
+    background-color: rgb(231, 228, 228);
+  }
+  #compare > div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  #compare > div > img{
+     height: 80%;
+     width: 100%;
+     margin-top: 35px;
+
+  }
+  #compare > div > h1 {
+     margin-left: 10%;
+  }
+  #compare > div > p {
+     margin-left: 10%;
+  }
+  #compare > div > a {
+     margin-left: 40%;
+  }
+/* Compare CSS END */
+
+ /* heading div START   */
+ .head1 >h1{
+text-align: center;
+ }
+ .head1 > p{
+    text-align: center;
+     }
+/* <!-- heading div END   */
+
+/* 
+    500cont start gird */
+    #gird500 {
+      /* border: 1px solid; */
+      display: grid;
+      width: 80%;
+      margin-left: 10%;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 150px);
+      grid-gap: 10px;
+      margin-bottom: 20px;
+      grid-template-areas:
+      "a b c "
+      "i j k "
+      
+    }
+
+    
+    #gird500 > div:nth-child(1) {
+      grid-area: a;
+    }
+
+    #gird500 > div:nth-child(2) {
+      grid-area: b;
+    }
+
+    #gird500 > div:nth-child(3) {
+      grid-area: c;
+    }    
+    #gird500 > div:nth-child(9) {
+      grid-area: i;
+    }
+    #gird500 > div:nth-child(10) {
+      grid-area: j;
+    }
+    #gird500 > div:nth-child(11) {
+      grid-area: k;
+    }
+  
+  /* image dimensions are 112x112 */
+  #gird500>div>a>img{
+      height: 150px;
+      width: 150px;
+      border-radius: 5%;
+      gap: 8px;
+      /* margin-bottom: 20px; */
+  }
+  /* gird cont 500end */
+
+
+/* Locate CSS StRT */
+#Locate{
+    /* margin-top: 20px;      */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,420px);
+    margin: auto;
+    gap: 20px;
+    width: 80%;
+    height: 420px;
+    /* border: 1px solid black; */
+    background-color: rgb(231, 228, 228);
+  }
+  #Locate > div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  #Locate > div > img{
+     height: 80%;
+     width: 100%;
+     margin-top: 35px;
+
+  }
+  #Locate > div > h1 {
+     margin-left: 10%;
+  }
+  #Locate > div > p {
+     margin-left: 10%;
+  }
+  #Locate > div > a {
+     margin-left: 40%;
+  }
+/* Locate CSS END */
+
+/* heading div START   */
+.head2 >h1{
+    text-align: center;
+     }
+     .head2 > p{
+        text-align: center;
+         }
+    /* <!-- heading div END   */
+
+    /* Install CSS StRT */
+#Install{
+    /* margin-top: 20px;      */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,350px);
+    margin: auto;
+    gap: 20px;
+    width: 80%;
+    height: 350px;
+    /* border: 1px solid black; */
+    background-color: white;
+  }
+  #Install > div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  #Install > div > img{
+     height: 80%;
+     width: 100%;
+     margin-top: 35px;
+
+  }
+  #Install > div > h1 {
+     margin-left: 10%;
+  }
+  #Install > div > p {
+     margin-left: 10%;
+  }
+  #Install > div > a {
+     margin-left: 40%;
+  }
+/* Install CSS END */
+
+
+    /* Install2 CSS StRT */
+    #Install2{
+        /* margin-top: 20px;      */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,420px);
+        margin: auto;
+        gap: 20px;
+        width: 80%;
+        height: 420px;
+        /* border: 1px solid black; */
+        background-color: white;
+      }
+      #Install2 > div {
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      #Install2 > div > img{
+         height: 80%;
+         width: 100%;
+         margin-top: 35px;
+    
+      }
+      #Install2 > div > h1 {
+         margin-left: 10%;
+      }
+      #Install2 > div > p {
+         margin-left: 10%;
+      }
+      #Install2 > div > a {
+         margin-left: 40%;
+      }
+    /* Install2 CSS END */
+
+    /* img start */
+    .IMGcont > a >img{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+        /* border: 1px solid; */
+    }
+    /* img end */
+    h1{
+        text-align: center;
+    }
+/* 
+    cont start gird */
+    #girdcont {
+        display: grid;
+        width: 80%;
+        margin-left: 10%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 250px);
+        grid-gap: 10px;
+        margin-bottom: 20px;
+        grid-template-areas:
+        "a b c "
+        "i j k "
+        
+      }
+
+      
+      #girdcont > div:nth-child(1) {
+        grid-area: a;
+      }
+
+      #girdcont > div:nth-child(2) {
+        grid-area: b;
+      }
+
+      #girdcont > div:nth-child(3) {
+        grid-area: c;
+      }    
+      #girdcont > div:nth-child(9) {
+        grid-area: i;
+      }
+      #girdcont > div:nth-child(10) {
+        grid-area: j;
+      }
+      #girdcont > div:nth-child(11) {
+        grid-area: k;
+      }
+    
+    /* image dimensions are 112x112 */
+    #girdcont>div>a>img{
+        height: 250px;
+        width: 400px;
+        border-radius: 5%;
+        gap: 10px;
+        /* margin-bottom: 20px; */
+    }
+    /* gird cont end */
+
+
+    /* gird sell start */
+    #girdsell {
+      /* border: 1px solid; */
+      display: grid;
+      width: 80%;
+      margin-left: 10%;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(1, 125px);
+      grid-gap: 10px;
+      margin-bottom: 20px;
+      grid-template-areas:
+      "a b c "
+      "i j k "
+      
+    }
+
+    
+    #girdsell > div:nth-child(1) {
+      grid-area: a;
+    }
+
+    #girdsell > div:nth-child(2) {
+      grid-area: b;
+    }
+
+    #girdsell > div:nth-child(3) {
+      grid-area: c;
+    }    
+    #girdsell > div:nth-child(9) {
+      grid-area: i;
+    }
+    #girdsell > div:nth-child(10) {
+      grid-area: j;
+    }
+    #girdsell > div:nth-child(11) {
+      grid-area: k;
+    }
+  
+  /* image dimensions are 112x112 */
+  #girdsell>div>a>img{
+   margin-left: 20%;
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      gap: 10px;
+      /* margin-bottom: 20px; */
+  }
+
+    /* gird sell end */
+
+      /* Install3 CSS StRT */
+      #Install3{
+        /* margin-top: 20px;      */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,420px);
+        margin: auto;
+        gap: 20px;
+        width: 80%;
+        height: 420px;
+        /* border: 1px solid black; */
+        background-color: white;
+      }
+      #Install3 > div {
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      #Install3 > div > img{
+         height: 80%;
+         width: 100%;
+         margin-top: 35px;
+    
+      }
+      #Install3 > div > h1 {
+         margin-left: 10%;
+      }
+      #Install3 > div > p {
+         margin-left: 10%;
+      }
+      #Install3 > div > a {
+         margin-left: 40%;
+      }
+    /* Install3 CSS END */
+
+     /* img start */
+     .IMGcont2 > a >img{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+        /* border: 1px solid; */
+    }
+    /* img end */
+    P{
+        text-align: center;
+    }
+     a > button{
+        /* border-radius: 8%; */
+        background-color: red;
+        height: 40px;
+        margin-left: 45%;
+    }
